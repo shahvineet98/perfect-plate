@@ -15,7 +15,7 @@ body {
 }
 
 .jumbotron {
-  background-image:url(/background.jpg);
+  background-image:url(background.jpg);
   height: 600px;
 }
 
