@@ -15,6 +15,10 @@
   height: 619px;
 }
 
+form {
+  text-align: center;
+}
+
 .jumbotron .container {
   position: relative;
   top:100px;
