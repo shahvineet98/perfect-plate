@@ -12,12 +12,12 @@
 
 .jumbotron {
   background-image:url("http://www.soho.is/wp-content/uploads/2015/07/glas2.jpg");
-  height: 1000px;
+  height: 800px;
 }
 
 .jumbotron .container {
   position: relative;
-  top:10px;
+  top:100px;
 }
 
 .jumbotron h1 {
