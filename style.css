@@ -30,13 +30,13 @@ form {
   font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  width:200px;
+  text-align: center;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
-  text-align: center;
+  width:200px;
 }
 
 .learn-more {
