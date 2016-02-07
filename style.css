@@ -15,11 +15,6 @@
   height: 700px;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
-
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;
