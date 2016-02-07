@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("http://involutionarymadness.com/wp-content/uploads/2016/01/Restaurant_Table.jpg");
+    background-image: url('http://involutionarymadness.com/wp-content/uploads/2016/01/Restaurant_Table.jpg');
 }
 
 .nav li {
