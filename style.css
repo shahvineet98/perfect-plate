@@ -40,7 +40,7 @@
 } */
 
 .learn-more {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .learn-more h3 {
@@ -50,16 +50,16 @@
 }
 
 .learn-more a {
-  color: #00b0ff;
+  color: #fff;
 }
 
 .neighborhood-guides {
-  background-color: #efefef;
+  background-color: #fff;
   border-bottom:1px solid #dbdbdb;
 }
 
 .neighborhood-guides h2 {
-  color: #393c3d;
+  color: #fff;
   font-size: 24px;
 }
 
