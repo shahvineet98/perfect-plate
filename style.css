@@ -30,7 +30,7 @@ form {
   font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
-  text-align: center;
+  width:200px;
 }
 
 .jumbotron p {
