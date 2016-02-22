@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>		
+		<div class="container">
+		  <div class="jumbotron">
+		    <h1></h1>	
+		    <p></p> 
+		  </div>
+		  <h2>You seem to like:</h2>
+		  <form method="post" action="{{ url_for('hello2') }}">
+            <input type="submit" name="suggest1" value="{{category1}}"/>
+          </form>
+		    
+		    <form method="post" action="{{ url_for('hello3') }}">
+            <input type="submit" name="suggest2" value="{{category2}}"/>
+          </form>
+
+          <form method="post" action="{{ url_for('hello4') }}">
+            <input type="submit" name="suggest3" value="{{category3}}"/>
+          </form>
+
+          <form method="post" action="{{ url_for('hello5') }}">
+            <input type="submit" name="suggest4" value="{{category4}}"/>
+          </form>
+
+          <form method="post" action="{{ url_for('hello6') }}">
+            <input type="submit" name="suggest5" value="{{category5}}"/>
+          </form>
+
+		</div>
+	</body>
+</html>
